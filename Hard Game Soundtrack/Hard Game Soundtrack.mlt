@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.19.0" title="Shotcut version 23.07.29" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="601"/>
+  <chain id="chain0" out="00:03:55.017">
+    <property name="length">00:03:55.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Jim Yosef - Eclipse _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:49:52</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8fbb928a1aceeaadc25242f845854010</property>
+  </chain>
+  <chain id="chain1" out="00:03:02.050">
+    <property name="length">00:03:02.067</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Laszlo - Fall To Light _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:49:08</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e83c61b2ab0da9480bf45c839c139c90</property>
+  </chain>
+  <chain id="chain2" out="00:04:39.033">
+    <property name="length">00:04:39.050</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/JJD - Adventure _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:48:33</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f27e6b97d1aee98ae5494f5a185cb214</property>
+  </chain>
+  <chain id="chain3" out="00:04:16.083">
+    <property name="length">00:04:16.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Jim Yosef - Firefly _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:48:25</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ffcd9cb0b9a2ce5e52a27b8f41e0be56</property>
+  </chain>
+  <chain id="chain4" out="00:03:58.017">
+    <property name="length">00:03:58.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Elektronomia - Sky High _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:47:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">941a7a1cc6b389e70f771f5960e08381</property>
+  </chain>
+  <chain id="chain5" out="00:03:29.017">
+    <property name="length">00:03:29.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Disfigure - Blank _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:46:41</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">cfcbc6dffe9822d537a3cbb71c21a70a</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:03:55.017"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:03:02.050"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:04:39.033"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:04:16.083"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:03:58.017"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:03:29.017"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:23:19.300">
+    <property name="length">00:23:19.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:23:19.300"/>
+  </playlist>
+  <chain id="chain6" out="00:03:55.017">
+    <property name="length">00:03:55.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Jim Yosef - Eclipse _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:49:52</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8fbb928a1aceeaadc25242f845854010</property>
+    <property name="shotcut:caption">Jim Yosef - Eclipse _NCS Release_.mp3</property>
+  </chain>
+  <chain id="chain7" out="00:03:02.050">
+    <property name="length">00:03:02.067</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Laszlo - Fall To Light _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:49:08</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e83c61b2ab0da9480bf45c839c139c90</property>
+    <property name="shotcut:caption">Laszlo - Fall To Light _NCS Release_.mp3</property>
+  </chain>
+  <chain id="chain8" out="00:04:39.033">
+    <property name="length">00:04:39.050</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/JJD - Adventure _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:48:33</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f27e6b97d1aee98ae5494f5a185cb214</property>
+    <property name="shotcut:caption">JJD - Adventure _NCS Release_.mp3</property>
+  </chain>
+  <chain id="chain9" out="00:04:16.083">
+    <property name="length">00:04:16.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Jim Yosef - Firefly _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:48:25</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ffcd9cb0b9a2ce5e52a27b8f41e0be56</property>
+    <property name="shotcut:caption">Jim Yosef - Firefly _NCS Release_.mp3</property>
+  </chain>
+  <chain id="chain10" out="00:03:58.017">
+    <property name="length">00:03:58.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Elektronomia - Sky High _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:47:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">941a7a1cc6b389e70f771f5960e08381</property>
+    <property name="shotcut:caption">Elektronomia - Sky High _NCS Release_.mp3</property>
+  </chain>
+  <chain id="chain11" out="00:03:29.017">
+    <property name="length">00:03:29.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/d0lph/Downloads/Disfigure - Blank _NCS Release_.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2023-09-04T18:46:41</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">cfcbc6dffe9822d537a3cbb71c21a70a</property>
+    <property name="shotcut:caption">Disfigure - Blank _NCS Release_.mp3</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain6" in="00:00:00.000" out="00:03:55.017"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:03:02.050"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:04:39.033"/>
+    <entry producer="chain9" in="00:00:00.000" out="00:04:16.083"/>
+    <entry producer="chain10" in="00:00:00.000" out="00:03:58.017"/>
+    <entry producer="chain11" in="00:00:00.000" out="00:03:29.017"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 23.07.29" in="00:00:00.000" out="00:23:19.300">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
